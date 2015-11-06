@@ -1,0 +1,32 @@
+﻿Build started 10/18/2011 8:49:58 PM.
+Project "C:\Users\Philip\Documents\Visual Studio 2010\Projects\Pointers\Pointers\Pointers.vcxproj" on node 2 (build target(s)).
+InitializeBuildStatus:
+  Creating "Debug\Pointers.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\Pointers.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt Stdafx.cpp /clr:nostdlib 
+  Stdafx.cpp
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\Pointers.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt AssemblyInfo.cpp Pointers.cpp /clr:nostdlib 
+  AssemblyInfo.cpp
+  Pointers.cpp
+  Generating Code...
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /analyze- /errorReport:prompt "C:\Users\Philip\AppData\Local\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cpp"
+  .NETFramework,Version=v4.0.AssemblyAttributes.cpp
+ResourceCompile:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug\app.res" app.rc 
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Philip\Documents\Visual Studio 2010\Projects\Pointers\Debug\Pointers.dll" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\Pointers.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Philip\Documents\Visual Studio 2010\Projects\Pointers\Debug\Pointers.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 /DLL Debug\app.res
+  Debug\AssemblyInfo.obj
+  Debug\Pointers.obj
+  Debug\Stdafx.obj
+  "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+  Pointers.vcxproj -> C:\Users\Philip\Documents\Visual Studio 2010\Projects\Pointers\Debug\Pointers.dll
+Manifest:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Philip\Documents\Visual Studio 2010\Projects\Pointers\Debug\Pointers.dll;#2" /manifest Debug\Pointers.dll.intermediate.manifest
+FinalizeBuildStatus:
+  Deleting file "Debug\Pointers.unsuccessfulbuild".
+  Touching "Debug\Pointers.lastbuildstate".
+Done Building Project "C:\Users\Philip\Documents\Visual Studio 2010\Projects\Pointers\Pointers\Pointers.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.10

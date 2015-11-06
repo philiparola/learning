@@ -1,0 +1,27 @@
+﻿Build started 10/7/2014 10:46:50 AM.
+     1>Project "C:\Users\Philip\Documents\Visual Studio 2010\Projects\ATM 2.0\ATM 2.0\ATM 2.0.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\ATM 2.0.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib "ATM 2.0.cpp"
+         ATM 2.0.cpp
+     1>ATM 2.0.cpp(32): error C2051: case expression not constant
+     1>ATM 2.0.cpp(35): error C2065: 'InputAccountID' : undeclared identifier
+     1>ATM 2.0.cpp(37): error C2065: 'InputAccountPIN' : undeclared identifier
+     1>ATM 2.0.cpp(38): error C2065: 'InputAccountPIN' : undeclared identifier
+     1>ATM 2.0.cpp(38): error C2065: 'AccountPIN' : undeclared identifier
+     1>ATM 2.0.cpp(40): error C2065: 'First' : undeclared identifier
+     1>ATM 2.0.cpp(40): error C2228: left of '.Name' must have class/struct/union
+                 type is 'unknown-type'
+     1>ATM 2.0.cpp(40): error C2065: 'Last' : undeclared identifier
+     1>ATM 2.0.cpp(41): error C2065: 'Balance' : undeclared identifier
+     1>ATM 2.0.cpp(46): error C2065: 'SelectionLogged' : undeclared identifier
+     1>ATM 2.0.cpp(57): error C2039: 'First' : is not a member of 'main::Account'
+                 ATM 2.0.cpp(12) : see declaration of 'main::Account'
+     1>ATM 2.0.cpp(59): error C2039: 'Last' : is not a member of 'main::Account'
+                 ATM 2.0.cpp(12) : see declaration of 'main::Account'
+     1>ATM 2.0.cpp(68): error C2065: 'default' : undeclared identifier
+     1>ATM 2.0.cpp(68): error C2146: syntax error : missing ';' before identifier 'cout'
+     1>Done Building Project "C:\Users\Philip\Documents\Visual Studio 2010\Projects\ATM 2.0\ATM 2.0\ATM 2.0.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.16

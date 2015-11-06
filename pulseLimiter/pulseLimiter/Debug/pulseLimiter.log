@@ -1,0 +1,23 @@
+﻿Build started 2/17/2012 5:40:20 PM.
+Project "C:\Users\Philip\Documents\Visual Studio 2010\Projects\pulseLimiter\pulseLimiter\pulseLimiter.vcxproj" on node 2 (build target(s)).
+PrepareForBuild:
+  Creating directory "C:\Users\Philip\Documents\Visual Studio 2010\Projects\pulseLimiter\Debug\".
+InitializeBuildStatus:
+  Creating "Debug\pulseLimiter.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\pulseLimiter.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+  stdafx.cpp
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\pulseLimiter.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt pulseLimiter.cpp
+  pulseLimiter.cpp
+c:\users\philip\documents\visual studio 2010\projects\pulselimiter\pulselimiter\pulselimiter.cpp(1): warning C4627: '#include <iostream>': skipped when looking for precompiled header use
+          Add directive to 'StdAfx.h' or rebuild precompiled header
+c:\users\philip\documents\visual studio 2010\projects\pulselimiter\pulselimiter\pulselimiter.cpp(2): warning C4627: '#include <conio.h>': skipped when looking for precompiled header use
+          Add directive to 'StdAfx.h' or rebuild precompiled header
+c:\users\philip\documents\visual studio 2010\projects\pulselimiter\pulselimiter\pulselimiter.cpp(3): warning C4627: '#include <lusb0_usb.h>': skipped when looking for precompiled header use
+          Add directive to 'StdAfx.h' or rebuild precompiled header
+c:\users\philip\documents\visual studio 2010\projects\pulselimiter\pulselimiter\pulselimiter.cpp(33): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "StdAfx.h"' to your source?
+Done Building Project "C:\Users\Philip\Documents\Visual Studio 2010\Projects\pulseLimiter\pulseLimiter\pulseLimiter.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:03.86

@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Elevator", "Elevator\Elevator.vcxproj", "{542E503C-6BC8-41DD-B44D-42E035C0AAAC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{542E503C-6BC8-41DD-B44D-42E035C0AAAC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{542E503C-6BC8-41DD-B44D-42E035C0AAAC}.Debug|Win32.Build.0 = Debug|Win32
+		{542E503C-6BC8-41DD-B44D-42E035C0AAAC}.Release|Win32.ActiveCfg = Release|Win32
+		{542E503C-6BC8-41DD-B44D-42E035C0AAAC}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
